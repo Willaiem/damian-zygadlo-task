@@ -42,7 +42,7 @@ export const PropertyCard = ({
         height={192}
         src={image}
         alt={name}
-        className="w-full h-48 object-cover"
+        className="w-full h-48 object-cover rounded-lg rounded-b-[0]"
       />
       <PropertyTypeBadge type={type} />
     </div>

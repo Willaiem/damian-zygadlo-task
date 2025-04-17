@@ -124,7 +124,7 @@ export const HousesAndApartments = () => {
       </div>
 
       <div
-        className={`flex overflow-x-auto space-x-4 pb-6 snap-x snap-mandatory max-lg:pl-16 pr-4 lg:grid lg:grid-cols-3 lg:gap-2 max-w-5xl lg:mx-auto lg:px-4 lg:space-x-0 lg:pb-0 lg:snap-none lg:pl-0 lg:pr-0 justify-items-center-safe`}
+        className={`flex max-md:overflow-x-auto space-x-4 pb-6 snap-x snap-mandatory max-lg:pl-16 pr-4 lg:grid lg:grid-cols-3 lg:gap-2 max-w-5xl lg:mx-auto lg:px-4 lg:space-x-0 lg:pb-0 lg:snap-none lg:pl-0 lg:pr-0 justify-items-center-safe`}
       >
         {propertiesToDisplay.map((property) => (
           <PropertyCard key={property.id} {...property} />
