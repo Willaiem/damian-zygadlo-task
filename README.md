@@ -7,7 +7,7 @@ This is a simple landing page built with [Next.js](https://nextjs.org) and [Tail
 - Clone the repository:
 
 ```bash
-git clone https://github.com/Willaiem/vlayer-task
+git clone https://github.com/Willaiem/damian-zygadlo-task
 ```
 
 - Navigate to the project directory and install the dependencies:
