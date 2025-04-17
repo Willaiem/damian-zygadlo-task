@@ -9,7 +9,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Estetery",
+  title: "Estatery",
   description:
     "A great platform to buy, sell, or even rent your properties without any commisions.",
 };
