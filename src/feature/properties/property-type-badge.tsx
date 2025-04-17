@@ -17,9 +17,7 @@ const Triangle = () => (
   />
 );
 
-export const PropertyTypeBadge: React.FC<PropertyTypeBadgeProps> = ({
-  type,
-}) => {
+export const PropertyTypeBadge = ({ type }: PropertyTypeBadgeProps) => {
   return (
     <div className="absolute bottom-0 left-[-8] translate-y-1/2 z-10">
       <div className="relative inline-flex items-center bg-indigo-600 text-white px-3 py-1.5 rounded-md text-xs font-semibold tracking-wide shadow">
